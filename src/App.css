@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+
+}
+.firstPage{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.people{
+  width: 30%;
+  height: 800px;
+  overflow: scroll;
+
+}
+.person{
+  border: 1px solid rgb(119, 239, 243);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+}
+.flexPerson{
+  margin-bottom: 15px;
+}
+.name{
+  background-color: rgb(119, 239, 243);
+  padding: 2%;
+  width: 100%;
+  text-align: center;
+}
+.fixedPage{
+  width: 70%;
+  height: 600px;
+}
+
+
+
